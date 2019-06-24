@@ -9,4 +9,9 @@ public class Directory {
 		return null;
 	}
 
+	public String getString(String tagModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

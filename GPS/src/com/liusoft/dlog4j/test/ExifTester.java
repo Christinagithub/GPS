@@ -16,7 +16,7 @@ import com.drew.metadata.exif.ExifDirectory;
  */
 public class ExifTester {
 	public static void main(String[] args) throws Exception {
-	File jpegFile = new File("C:\\Users\\LENOVO\\Pictures\\Saved Pictures");
+	File jpegFile = new File("‪C:\\Users\\LENOVO\\Pictures\\Saved Pictures\\20190624090418.jpg");
     Metadata metadata = JpegMetadataReader.readMetadata(jpegFile);
     Directory exif = metadata.getDirectory(ExifDirectory.class);
     Iterator tags = exif.getTagIterator();
